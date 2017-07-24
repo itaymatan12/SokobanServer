@@ -34,7 +34,7 @@ public class Main extends Application {
 
 					//Optional<ButtonType> result = alert.showAndWait();
 					//if (result.get() == ButtonType.OK)
-						view.exit();
+
 				});
 				
 				//binding the view, controller and model

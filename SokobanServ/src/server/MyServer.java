@@ -88,9 +88,11 @@ public class MyServer extends Observable
         if(isStopped)
         {
         	server.close();
+            System.exit(0);
         }
         
-        Platform.exit();
+        //Platform.exit();
+
     }
 
     public void stopServer() 

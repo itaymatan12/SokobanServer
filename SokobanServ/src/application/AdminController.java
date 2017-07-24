@@ -281,10 +281,7 @@ public class AdminController  implements View , Observer ,Initializable {
 		if(stageTasksWindow != null)
 			stageTasksWindow.show();
 	}
-	public void exit()
-	{
-		
-	}
+
 
 	public ViewModel getVm() {
 		return vm;
@@ -294,4 +291,5 @@ public class AdminController  implements View , Observer ,Initializable {
 		this.vm = vm;
 	}
 
+	
 }
