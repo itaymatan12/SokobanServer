@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import application.TasksWindowController?>
+
+<BorderPane prefHeight="522.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" >
+   <center>
+      <TableView fx:id="table" prefHeight="316.0" prefWidth="695.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="254.0" text="Task Name" />
+          <TableColumn fx:id="state" prefWidth="138.0" text="State" />
+        </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <HBox prefHeight="98.0" prefWidth="408.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <ToolBar prefHeight="106.0" prefWidth="340.0" style="-fx-border-color: #009900; -fx-background-color: #009900;" BorderPane.alignment="CENTER">
+         <items>
+            <Label text="Administrator Control Window" textFill="#dde3dc">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+         </items>
+      </ToolBar>
+   </top>
+</BorderPane>
